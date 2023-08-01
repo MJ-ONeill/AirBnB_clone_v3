@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Flask Web Application"""
 
-from flask import flask, Blueprint, make_response, jsonify
+from Flask import Flask, Blueprint, make_response, jsonify
 from api.v1.views import app_views
 from models import storage
 from os import getenv
